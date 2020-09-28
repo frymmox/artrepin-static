@@ -1,0 +1,64 @@
+.showreel {
+  background-color: #fff;
+}
+
+.showreel__container {
+  position: relative;
+  cursor: none;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+}
+
+.showreel__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  .vjs-poster {
+    background-size: cover;
+    cursor: none;
+  }
+
+  @media (min-width: @breakpoint-lg) {
+    .vjs-big-play-button,
+    .vjs-control-bar {
+      display: none;
+    }
+  }
+}
+
+.showreel__target {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 140px;
+  height: 140px;
+  margin-top: -70px;
+  margin-left: -70px;
+  background-color: #fff;
+  border-radius: 50%;
+  pointer-events: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media (max-width: @breakpoint-lg - 1px) {
+    display: none;
+  }
+}
+
+.showreel__play {
+  .showreel__container--active & {
+    display: none;
+  }
+}
+
+.showreel__pause {
+  display: none;
+
+  .showreel__container--active & {
+    display: block;
+  }
+}

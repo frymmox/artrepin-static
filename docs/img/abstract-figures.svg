@@ -1,0 +1,23 @@
+<svg width="865" height="1080" viewBox="0 0 865 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.1">
+<path d="M-1 1081V866.082L213.918 1081H-1Z" stroke="#C4C4C4" stroke-width="2"/>
+<path d="M-1 539V324.082L213.918 539H-1Z" stroke="#C4C4C4" stroke-width="2"/>
+<path d="M215.333 215.417L215.333 430.335L0.415119 215.417L215.333 215.417Z" stroke="#C4C4C4" stroke-width="2"/>
+<path d="M647.209 864.668L647.209 1079.59L432.291 864.668L647.209 864.668Z" stroke="#C4C4C4" stroke-width="2"/>
+<path d="M431.833 648.166L431.833 433.248L646.751 648.166L431.833 648.166Z" stroke="#C4C4C4" stroke-width="2"/>
+<path d="M431.749 215.417L431.749 430.335L216.831 215.417L431.749 215.417Z" stroke="#C4C4C4" stroke-width="2"/>
+<path d="M215.333 -1.00009L215.333 213.918L0.415119 -1.00011L215.333 -1.00009Z" stroke="#C4C4C4" stroke-width="2"/>
+<path d="M-1.00002 -1.00009L-1 213.918L213.918 -1.00011L-1.00002 -1.00009Z" stroke="#C4C4C4" stroke-width="2"/>
+<rect x="107.209" y="864.668" width="216.332" height="216.332" rx="108.166" stroke="#C4C4C4" stroke-width="2"/>
+<rect x="431.833" y="431.834" width="216.332" height="216.332" rx="108.166" stroke="#C4C4C4" stroke-width="2"/>
+<path d="M107.209 540C107.209 480.262 155.637 431.834 215.375 431.834C275.113 431.834 323.541 480.262 323.541 540V648.166H215.375C155.637 648.166 107.209 599.738 107.209 540Z" stroke="#C4C4C4" stroke-width="2"/>
+<rect x="215.417" y="864.668" width="216.332" height="216.332" stroke="#C4C4C4" stroke-width="2"/>
+<rect x="-1" y="648.25" width="216.332" height="216.332" stroke="#C4C4C4" stroke-width="2"/>
+<rect x="-1" y="539.085" width="216.332" height="216.332" stroke="#C4C4C4" stroke-width="2"/>
+<path d="M647 864.67C766.236 865.207 862.793 961.764 863.33 1081H647V864.67Z" stroke="#C4C4C4" stroke-width="2"/>
+<path d="M215.5 215.502C334.736 216.039 431.292 312.596 431.829 431.832H215.5V215.502Z" stroke="#C4C4C4" stroke-width="2"/>
+<rect x="-1" y="593.668" width="216.332" height="216.332" stroke="#C4C4C4" stroke-width="2"/>
+<rect x="-1" y="-1" width="216.332" height="216.332" stroke="#C4C4C4" stroke-width="2"/>
+<path d="M215.417 431.834H430.42L431.749 433.163V648.166H215.417V431.834Z" stroke="#C4C4C4" stroke-width="2"/>
+</g>
+</svg>

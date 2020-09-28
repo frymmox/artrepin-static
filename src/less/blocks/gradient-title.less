@@ -1,0 +1,25 @@
+.gradient-title {
+  padding-bottom: 0;
+  background-color: #fff;
+}
+
+.gradient-title__text {
+  line-height: 8.625rem;
+
+  @media (max-width: @breakpoint-md - 1px) {
+    line-height: 4.125rem;
+  }
+}
+
+.gradient-title__item {
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+  color: @body-color;
+
+  &--last {
+    @media (min-width: 375px) and (max-width: @breakpoint-sm - 1px) {
+      white-space: nowrap;
+    }
+  }
+}

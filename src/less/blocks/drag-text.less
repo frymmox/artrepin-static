@@ -1,0 +1,37 @@
+.drag-text {
+  background-color: #fff;
+
+  @media (min-width: @breakpoint-xl) {
+    --block-gap-vertical: 120px;
+  }
+}
+
+.drag-text__content {
+  overflow: hidden;
+  position: relative;
+  height: 200px;
+  width: 100%;
+
+  @media (max-width: @breakpoint-md - 1px) {
+    height: 96px;
+  }
+}
+
+.drag-text__wrap {
+  position: relative;
+  overflow: visible;
+}
+
+.drag-text__text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 14.125rem;
+  line-height: 17rem;
+  white-space: nowrap;
+
+  @media (max-width: @breakpoint-md - 1px) {
+    font-size: 5rem;
+    line-height: 6rem;
+  }
+}

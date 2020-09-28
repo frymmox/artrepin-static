@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <title>ArtRepin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, shrink-to-fit=no, viewport-fit=cover">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <link rel="stylesheet" href="libs.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/png" href="../img/favicon.png" sizes="32x32" >
+  </head>
+  <body>
+    <div class="page">
+
+
+<header class="header  header--dark">
+  <div class="header__wrap">
+    <div class="header__list">
+      <div class="header__fold">
+        <ul class="header__menu">
+          <li class="header__logo">
+            <a href="/">
+              <svg width="171" height="25">
+                <use class="header__logo-white" href="/img/sprite.svg#logo-white"></use>
+                <use class="header__logo-black" href="/img/sprite.svg#logo"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <ul class="header__menu  header__menu--fold">
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">Studio</a></li>
+              <li><a href="#">Academy</a></li>
+            </ul>
+          </li>
+          <li class="header__toggle">
+            <button class="js-header-open" type="button">
+              <svg class="header__toggle-white" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                <path d="M14.239 3.88235C14.239 1.73819 15.9763 0 18.1194 0C20.2625 0 21.9998 1.73819 21.9998 3.88235C21.9998 6.02652 20.2625 7.76471 18.1194 7.76471C15.9763 7.76471 14.239 6.02652 14.239 3.88235Z" fill="#fff"/>
+                <path d="M0.0107422 3.88235C0.0107422 1.73819 1.74807 0 3.89117 0C6.03427 0 7.7716 1.73819 7.7716 3.88235C7.7716 6.02652 6.03427 7.76471 3.89117 7.76471C1.74807 7.76471 0.0107422 6.02652 0.0107422 3.88235Z" fill="#fff"/>
+                <path d="M14.239 18.1176C14.239 15.9735 15.9763 14.2353 18.1194 14.2353C20.2625 14.2353 21.9998 15.9735 21.9998 18.1176C21.9998 20.2618 20.2625 22 18.1194 22C15.9763 22 14.239 20.2618 14.239 18.1176Z" fill="#fff"/>
+                <path id="square-header" d="M0.0107422 14.2353H7.7716V22H0.0107422V14.2353Z" fill="#fff"/>
+              </svg>
+
+              <svg class="header__toggle-black" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                <path d="M14.239 3.88235C14.239 1.73819 15.9763 0 18.1194 0C20.2625 0 21.9998 1.73819 21.9998 3.88235C21.9998 6.02652 20.2625 7.76471 18.1194 7.76471C15.9763 7.76471 14.239 6.02652 14.239 3.88235Z" fill="#131315"/>
+                <path d="M0.0107422 3.88235C0.0107422 1.73819 1.74807 0 3.89117 0C6.03427 0 7.7716 1.73819 7.7716 3.88235C7.7716 6.02652 6.03427 7.76471 3.89117 7.76471C1.74807 7.76471 0.0107422 6.02652 0.0107422 3.88235Z" fill="#131315"/>
+                <path d="M14.239 18.1176C14.239 15.9735 15.9763 14.2353 18.1194 14.2353C20.2625 14.2353 21.9998 15.9735 21.9998 18.1176C21.9998 20.2618 20.2625 22 18.1194 22C15.9763 22 14.239 20.2618 14.239 18.1176Z" fill="#131315"/>
+                <path id="square-header" d="M0.0107422 14.2353H7.7716V22H0.0107422V14.2353Z" fill="#131315"/>
+              </svg>
+            </button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="header__collapse  header-collapse">
+        <div class="header-collapse__image  header-collapse__image--desk">
+          <img src="/img/abstract-figures.svg" alt="">
+        </div>
+
+        <div class="header-collapse__image  header-collapse__image--mob">
+          <img src="/img/abstract-figures-mob.svg" alt="">
+        </div>
+
+        <div class="header-collapse__content">
+          <div class="header-collapse__wrap">
+            <div class="header-collapse__list">
+              <div class="header-collapse__header">
+                <div class="header-collapse__logo">
+                  <svg width="171" height="25">
+                    <use href="/img/sprite.svg#logo-white"></use>
+                  </svg>
+                </div>
+                <div class="header-collapse__close">
+                  <button class="js-header-close" type="button">
+                    <svg width="22" height="22">
+                      <use href="/img/sprite.svg#burger"></use>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+
+              <nav class="header__nav">
+                <ul class="header__menu  header__menu--collapse">
+                  <li>
+                    <span class="header-collapse__index">(01)</span>
+                    <span class="header-collapse__divider">/</span>
+                    <a href="#">Works</a>
+                  </li>
+                  <li>
+                    <span class="header-collapse__index">(02)</span>
+                    <span class="header-collapse__divider">/</span>
+                    <a href="#">Services</a>
+                  </li>
+                  <li>
+                    <span class="header-collapse__index">(03)</span>
+                    <span class="header-collapse__divider">/</span>
+                    <a href="#">Studio</a>
+                  </li>
+                  <li>
+                    <span class="header-collapse__index">(04)</span>
+                    <span class="header-collapse__divider">/</span>
+                    <a href="#">Academy</a>
+                  </li>
+                  <li>
+                    <span class="header-collapse__index">(05)</span>
+                    <span class="header-collapse__divider">/</span>
+                    <a href="#">Careers</a>
+                  </li>
+                  <li>
+                    <span class="header-collapse__index">(06)</span>
+                    <span class="header-collapse__divider">/</span>
+                    <a href="#">Contact</a>
+                  </li>
+                </ul>
+              </nav>
+
+              <div class="header-collapse__footer">
+                <div class="header-collapse__lang">
+                  <span class="icon">
+                    <svg width="16" height="16">
+                      <use href="/img/sprite.svg#lang"></use>
+                    </svg>
+                  </span>
+                  Русский
+                </div>
+
+                <div class="header-collapse__social">
+                  <ul>
+                    <li>
+                      <a href="#">Behance</a>
+                    </li>
+                    <li>
+                      <a href="#">Dribbble</a>
+                    </li>
+                    <li>
+                      <a href="#">Instagram</a>
+                    </li>
+                    <li>
+                      <a href="#">YouTube</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="main">
+
+
+<section class="scene">
+  <div class="grid  grid-works">
+    <div class="grid__wrap">
+      <div class="grid__list">
+        <div class="grid__item  grid-works__item  grid-works__item--large">
+          <div class="work-card">
+            <div class="work-card__accent">
+              <div class="work-card__image">
+                <img src="/img/card1.jpg">
+              </div>
+           </div>
+
+            <div class="work-card__content">
+              <div class="work-card__title">
+                <h3>Corporate website for Dots Cafe.</h3>
+              </div>
+
+              <div class="work-card__tags">
+                <ul>
+                  <li>UX/UI Design</li>
+                  <li class="work-card__divider">.</li>
+                  <li>Branding</li>
+                  <li class="work-card__divider">.</li>
+                  <li>Motion</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid__item  grid-works__item">
+          <div class="work-card">
+            <div class="work-card__accent">
+              <div class="work-card__image">
+                <img src="/img/card2.jpg">
+              </div>
+           </div>
+
+            <div class="work-card__content">
+              <div class="work-card__title">
+                <h3>Website for videomakers Engine Room.</h3>
+              </div>
+
+              <div class="work-card__tags">
+                <ul>
+                  <li>UX/UI Design</li>
+                  <li class="work-card__divider">.</li>
+                  <li>Branding</li>
+                  <li class="work-card__divider">.</li>
+                  <li>Motion</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid__item  grid-works__item">
+          <div class="work-card">
+            <div class="work-card__accent">
+              <div class="work-card__image">
+                <img src="/img/card6.jpg">
+              </div>
+           </div>
+
+            <div class="work-card__content">
+              <div class="work-card__title">
+                <h3>Personal identety for Keller Henson.</h3>
+              </div>
+
+              <div class="work-card__tags">
+                <ul>
+                  <li>Graphic design</li>
+                  <li class="work-card__divider">.</li>
+                  <li>Branding</li>
+                  <li class="work-card__divider">.</li>
+                  <li>Motion</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid__item  grid-works__item">
+          <div class="work-card">
+            <div class="work-card__accent">
+              <div class="work-card__image">
+                <img src="/img/card7.jpg">
+              </div>
+           </div>
+
+            <div class="work-card__content">
+              <div class="work-card__title">
+                <h3>Mobile app for fitness - Tonal.</h3>
+              </div>
+
+              <div class="work-card__tags">
+                <ul>
+                  <li>UX/UI Design</li>
+                  <li class="work-card__divider">.</li>
+                  <li>Branding</li>
+                  <li class="work-card__divider">.</li>
+                  <li>Development</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid__item  grid-works__item">
+          <div class="work-card">
+            <div class="work-card__accent">
+              <div class="work-card__image">
+                <img src="/img/card8.jpg">
+              </div>
+           </div>
+
+            <div class="work-card__content">
+              <div class="work-card__title">
+                <h3>Personal website Synell.</h3>
+              </div>
+
+              <div class="work-card__tags">
+                <ul>
+                  <li>UX/UI Design</li>
+                  <li class="work-card__divider">.</li>
+                  <li>Branding</li>
+                  <li class="work-card__divider">.</li>
+                  <li>Motion</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid__item  grid-works__item">
+          <div class="work-card">
+            <div class="work-card__accent">
+              <div class="work-card__image">
+                <img src="/img/card9.jpg">
+              </div>
+           </div>
+
+            <div class="work-card__content">
+              <div class="work-card__title">
+                <h3>Identity for National Ambulance MHG.</h3>
+              </div>
+
+              <div class="work-card__tags">
+                <ul>
+                  <li>Graphic design</li>
+                  <li class="work-card__divider">.</li>
+                  <li>Branding</li>
+                  <li class="work-card__divider">.</li>
+                  <li>Motion</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid__item  grid-works__item">
+          <div class="work-card">
+            <div class="work-card__accent">
+              <div class="work-card__image">
+                <img src="/img/card4.jpg">
+              </div>
+           </div>
+
+            <div class="work-card__content">
+              <div class="work-card__title">
+                <h3>Identity for National Ambulance MHG.</h3>
+              </div>
+
+              <div class="work-card__tags">
+                <ul>
+                  <li>Graphic design</li>
+                  <li class="work-card__divider">.</li>
+                  <li>Branding</li>
+                  <li class="work-card__divider">.</li>
+                  <li>Motion</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid__item  grid-works__item">
+          <div class="work-card">
+            <div class="work-card__accent">
+              <div class="work-card__image">
+                <img src="/img/card5.jpg">
+              </div>
+           </div>
+
+            <div class="work-card__content">
+              <div class="work-card__title">
+                <h3>Mobile app for fitness - Tonal.</h3>
+              </div>
+
+              <div class="work-card__tags">
+                <ul>
+                  <li>UX/UI Design</li>
+                  <li class="work-card__divider">.</li>
+                  <li>Branding</li>
+                  <li class="work-card__divider">.</li>
+                  <li>Development</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid__item  grid-works__item">
+          <div class="work-card">
+            <div class="work-card__accent">
+              <div class="work-card__image">
+                <img src="/img/card10.jpg">
+              </div>
+           </div>
+
+            <div class="work-card__content">
+              <div class="work-card__title">
+                <h3>Personal identety for Keller Henson.</h3>
+              </div>
+
+              <div class="work-card__tags">
+                <ul>
+                  <li>UX/UI Design</li>
+                  <li class="work-card__divider">.</li>
+                  <li>Branding</li>
+                  <li class="work-card__divider">.</li>
+                  <li>Motion</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid__item  grid-works__item">
+          <div class="work-card">
+            <div class="work-card__accent">
+              <div class="work-card__image">
+                <img src="/img/card12.jpg">
+              </div>
+           </div>
+
+            <div class="work-card__content">
+              <div class="work-card__title">
+                <h3>Personal website Synell.</h3>
+              </div>
+
+              <div class="work-card__tags">
+                <ul>
+                  <li>UX/UI Design</li>
+                  <li class="work-card__divider">.</li>
+                  <li>Branding</li>
+                  <li class="work-card__divider">.</li>
+                  <li>Motion</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid__item  grid-works__item">
+          <div class="work-card">
+            <div class="work-card__accent">
+              <div class="work-card__image">
+                <img src="/img/card11.jpg">
+              </div>
+           </div>
+
+            <div class="work-card__content">
+              <div class="work-card__title">
+                <h3>Mobile app for fitness - Tonal.</h3>
+              </div>
+
+              <div class="work-card__tags">
+                <ul>
+                  <li>UX/UI Design</li>
+                  <li class="work-card__divider">.</li>
+                  <li>Branding</li>
+                  <li class="work-card__divider">.</li>
+                  <li>Motion</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer__wrap">
+    <div class="footer__list  footer__list--top">
+      <div class="footer__item  footer__content">
+        <div class="footer__text">
+          <p>Let’s create something amazing together</p>
+
+          <a href="mailto:info@artrepin.studio">info@artrepin.studio</a>
+        </div>
+
+        <ul class="footer__nav">
+          <li>
+            <a href="#">Works</a>
+          </li>
+          <li>
+            <a href="#">Services</a>
+          </li>
+          <li>
+            <a href="#">Studio</a>
+          </li>
+          <li>
+            <a href="#">Academy</a>
+          </li>
+          <li>
+            <a href="#">Careers</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer__item  footer__image">
+        <svg width="579" height="386">
+          <use href="/img/sprite.svg#abstract-figures-2"></use>
+        </svg>
+      </div>
+    </div>
+
+    <div class="footer__list  footer__list--bottom">
+      <div class="footer__item">
+        <ul class="footer__copyr">
+          <li>Artrepin Studio © 2020</li>
+          <li>
+            <a href="#">Offer</a>
+          </li>
+          <li>
+            <a href="#">Privacy</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer__item  footer__media">
+        <ul class="footer__social">
+          <li>
+            <a href="#">Behance</a>
+          </li>
+          <li>
+            <a href="#">Dribbble</a>
+          </li>
+          <li>
+            <a href="#">Instagram</a>
+          </li>
+          <li>
+            <a href="#">YouTube</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer__item">
+        <div class="footer__lang">
+          <span class="icon">
+            <svg width="16" height="16">
+              <use href="/img/sprite.svg#lang"></use>
+            </svg>
+          </span>
+          Русский
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    </div>
+    <script src="libs.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
+
