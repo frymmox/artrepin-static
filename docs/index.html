@@ -8,7 +8,7 @@
     <meta name="format-detection" content="address=no">
     <link rel="stylesheet" href="libs.css">
     <link rel="stylesheet" href="index.css">
-    <link rel="icon" type="image/png" href="../img/favicon.png" sizes="32x32" >
+    <!-- <link rel="icon" type="image/png" href="../img/favicon.png" sizes="32x32"> -->
   </head>
   <body>
     <div class="page">
@@ -524,28 +524,28 @@
             <a class="h2" href="#">Services</a>
           </div>
 
-          <div class="services__image">
-            <svg width="374" height="374">
+          <div class="services__images">
+            <svg id="services-ui-design" class="services__image" width="374" height="374">
               <use href="img/services.svg#ui-design"></use>
             </svg>
 
-            <svg width="376" height="351">
+            <svg id="services-branding" class="services__image" width="376" height="351">
               <use href="img/services.svg#branding"></use>
             </svg>
 
-            <svg width="345" height="345">
+            <svg id="services-mobile-app" class="services__image" width="345" height="345">
               <use href="img/services.svg#mobile-app"></use>
             </svg>
 
-            <svg width="350" height="352">
+            <svg id="services-motion-design" class="services__image" width="350" height="352">
               <use href="img/services.svg#motion-design"></use>
             </svg>
 
-            <svg width="381" height="352">
+            <svg id="services-graphic-design" class="services__image" width="381" height="352">
               <use href="img/services.svg#graphic-design"></use>
             </svg>
 
-            <svg width="347" height="361">
+            <svg id="services-marketing" class="services__image" width="347" height="361">
               <use href="img/services.svg#marketing"></use>
             </svg>
           </div>
@@ -560,7 +560,7 @@
 
           <div class="services__list  list-services">
             <ul class="list-services__wrap">
-              <li class="list-services__item">
+              <li class="list-services__item  js-services-target" data-target="#services-ui-design">
                 <div class="list-services__number">
                   01
                 </div>
@@ -598,7 +598,7 @@
                 </div>
               </li>
 
-              <li class="list-services__item">
+              <li class="list-services__item  js-services-target" data-target="#services-branding">
                 <div class="list-services__number">
                   02
                 </div>
@@ -636,7 +636,7 @@
                 </div>
               </li>
 
-              <li class="list-services__item">
+              <li class="list-services__item  js-services-target" data-target="#services-mobile-app">
                 <div class="list-services__number">
                   03
                 </div>
@@ -668,7 +668,7 @@
                 </div>
               </li>
 
-              <li class="list-services__item">
+              <li class="list-services__item  js-services-target" data-target="#services-motion-design">
                 <div class="list-services__number">
                   04
                 </div>
@@ -708,7 +708,7 @@
                 </div>
               </li>
 
-              <li class="list-services__item">
+              <li class="list-services__item  js-services-target" data-target="#services-graphic-design">
                 <div class="list-services__number">
                   05
                 </div>
@@ -742,7 +742,7 @@
                 </div>
               </li>
 
-              <li class="list-services__item">
+              <li class="list-services__item  js-services-target" data-target="#services-marketing">
                 <div class="list-services__number">
                   06
                 </div>

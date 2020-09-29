@@ -4,7 +4,7 @@ const headerList = document.querySelector('.header__collapse')
 
 function showCollapse() {
   headerList.classList.add('header__collapse--open')
-  disablePageScroll()
+  scrollLock.disablePageScroll()
 }
 
 headerOpen.addEventListener('click', () => {
