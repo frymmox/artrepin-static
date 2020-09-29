@@ -1,3 +1,7 @@
+.work-card {
+  position: relative;
+}
+
 .work-card__accent {
   height: 330px;
   position: relative;
@@ -36,8 +40,30 @@
   margin-bottom: 8px;
 
   h3 {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
+    font-size: 1.75rem;
+    line-height: 2rem;
+
+    @media (min-width: @breakpoint-md) {
+      font-size: 2.25rem;
+      line-height: 2.5rem;
+    }
+  }
+
+  a {
+    color: @body-color;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+
+    &:hover {
+      color: #98A5B1;
+    }
   }
 }
 
@@ -52,6 +78,11 @@
     font-size: 0.875rem;
     line-height: 1rem;
     text-transform: uppercase;
+
+    @media (min-width: @breakpoint-md) {
+      font-size: 0.75rem;
+      line-height: 0.875rem;
+    }
   }
 }
 
