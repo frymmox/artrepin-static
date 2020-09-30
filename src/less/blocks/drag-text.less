@@ -1,6 +1,11 @@
 .drag-text {
   background-color: #fff;
 
+  @media (max-width: @breakpoint-md - 1px) {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
   @media (min-width: @breakpoint-xl) {
     --block-gap-vertical: 120px;
   }

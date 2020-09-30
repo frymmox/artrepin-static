@@ -1,64 +1,64 @@
 <svg xmlns="http://www.w3.org/2000/svg">
-  <symbol id="ui-design" viewBox="0 0 374 374" fill="none">
+  <symbol id="ui-design" viewBox="0 0 378 378" fill="none">
     <g opacity="0.2">
-      <rect x="310.599" y="0.88501" width="87.6001" height="87.6001" transform="rotate(45 310.599 0.88501)" stroke="white"/>
-      <rect x="62.8281" y="248.656" width="87.6001" height="87.6001" transform="rotate(45 62.8281 248.656)" stroke="white"/>
-      <rect x="372.541" y="310.599" width="87.6001" height="87.6001" transform="rotate(135 372.541 310.599)" stroke="white"/>
-      <rect x="124.771" y="62.8284" width="87.6001" height="87.6001" transform="rotate(135 124.771 62.8284)" stroke="white"/>
-    </g>
-    <g opacity="0.4">
-      <rect x="372.541" y="186.713" width="87.6001" height="87.6001" transform="rotate(135 372.541 186.713)" stroke="white"/>
-      <rect x="248.655" y="310.599" width="87.6001" height="87.6001" transform="rotate(135 248.655 310.599)" stroke="white"/>
-      <rect x="248.656" y="62.8281" width="87.6001" height="87.6001" transform="rotate(135 248.656 62.8281)" stroke="white"/>
-      <rect x="124.77" y="186.714" width="87.6001" height="87.6001" transform="rotate(135 124.77 186.714)" stroke="white"/>
+      <rect x="312.599" y="2.88501" width="87.6001" height="87.6001" transform="rotate(45 312.599 2.88501)" stroke="white" stroke-width="4"/>
+      <rect x="64.8281" y="250.656" width="87.6001" height="87.6001" transform="rotate(45 64.8281 250.656)" stroke="white" stroke-width="4"/>
+      <rect x="374.541" y="312.599" width="87.6001" height="87.6001" transform="rotate(135 374.541 312.599)" stroke="white" stroke-width="4"/>
+      <rect x="126.771" y="64.8284" width="87.6001" height="87.6001" transform="rotate(135 126.771 64.8284)" stroke="white" stroke-width="4"/>
+      </g>
+      <g opacity="0.4">
+      <rect x="374.541" y="188.713" width="87.6001" height="87.6001" transform="rotate(135 374.541 188.713)" stroke="white" stroke-width="4"/>
+      <rect x="250.655" y="312.599" width="87.6001" height="87.6001" transform="rotate(135 250.655 312.599)" stroke="white" stroke-width="4"/>
+      <rect x="250.656" y="64.8281" width="87.6001" height="87.6001" transform="rotate(135 250.656 64.8281)" stroke="white" stroke-width="4"/>
+      <rect x="126.77" y="188.714" width="87.6001" height="87.6001" transform="rotate(135 126.77 188.714)" stroke="white" stroke-width="4"/>
     </g>
     <g opacity="0.7">
-      <rect x="248.656" y="62.8281" width="87.6001" height="87.6001" transform="rotate(45 248.656 62.8281)" stroke="white"/>
-      <rect x="310.598" y="248.656" width="87.6001" height="87.6001" transform="rotate(135 310.598 248.656)" stroke="white"/>
-      <rect x="124.77" y="186.714" width="87.6001" height="87.6001" transform="rotate(45 124.77 186.714)" stroke="white"/>
-      <rect x="186.713" y="124.771" width="87.6001" height="87.6001" transform="rotate(135 186.713 124.771)" stroke="white"/>
+      <rect x="250.656" y="64.8281" width="87.6001" height="87.6001" transform="rotate(45 250.656 64.8281)" stroke="white" stroke-width="4"/>
+      <rect x="312.598" y="250.656" width="87.6001" height="87.6001" transform="rotate(135 312.598 250.656)" stroke="white" stroke-width="4"/>
+      <rect x="126.77" y="188.714" width="87.6001" height="87.6001" transform="rotate(45 126.77 188.714)" stroke="white" stroke-width="4"/>
+      <rect x="188.713" y="126.771" width="87.6001" height="87.6001" transform="rotate(135 188.713 126.771)" stroke="white" stroke-width="4"/>
     </g>
-    <rect x="186.713" y="124.771" width="87.6001" height="87.6001" transform="rotate(45 186.713 124.771)" stroke="white"/>
+    <rect x="188.713" y="126.771" width="87.6001" height="87.6001" transform="rotate(45 188.713 126.771)" stroke="white" stroke-width="4"/>
   </symbol>
 
-  <symbol id="branding" viewBox="0 0 376 351" fill="none">
-    <ellipse cx="109.5" cy="241.5" rx="108.5" ry="108.5" transform="rotate(180 109.5 241.5)" stroke="white"/>
-    <ellipse cx="188" cy="109.5" rx="109" ry="108.5" transform="rotate(180 188 109.5)" stroke="white"/>
-    <ellipse cx="266.5" cy="241.5" rx="108.5" ry="108.5" transform="rotate(180 266.5 241.5)" stroke="white"/>
-    <path opacity="0.05" d="M214.672 214.728C206.136 216.865 197.201 218 188 218C137.135 218 94.4072 183.319 82.3799 136.417C91.0479 134.186 100.135 133 109.499 133C160.183 133 202.75 167.752 214.672 214.728Z" fill="white"/>
-    <path opacity="0.05" d="M188 166.6C206.587 186.074 218 212.454 218 241.5C218 270.546 206.587 296.926 188 316.4C169.413 296.926 158 270.546 158 241.5C158 212.454 169.413 186.074 188 166.6Z" fill="white"/>
-    <path opacity="0.05" d="M293.62 136.417C281.592 183.319 238.865 218 188 218C178.799 218 169.863 216.865 161.328 214.728C173.25 167.752 215.816 133 266.5 133C275.864 133 284.952 134.186 293.62 136.417Z" fill="white"/>
+  <symbol id="branding" viewBox="0 0 378 353" fill="none">
+    <ellipse cx="110.5" cy="242.5" rx="108.5" ry="108.5" transform="rotate(180 110.5 242.5)" stroke="white" stroke-width="4"/>
+    <ellipse cx="189" cy="110.5" rx="109" ry="108.5" transform="rotate(180 189 110.5)" stroke="white" stroke-width="4"/>
+    <ellipse cx="267.5" cy="242.5" rx="108.5" ry="108.5" transform="rotate(180 267.5 242.5)" stroke="white" stroke-width="4"/>
+    <path opacity="0.05" d="M215.672 215.728C207.136 217.865 198.201 219 189 219C138.135 219 95.4072 184.319 83.3799 137.417C92.0479 135.186 101.135 134 110.499 134C161.183 134 203.75 168.752 215.672 215.728Z" fill="white"/>
+    <path opacity="0.05" d="M189 167.6C207.587 187.074 219 213.454 219 242.5C219 271.546 207.587 297.926 189 317.4C170.413 297.926 159 271.546 159 242.5C159 213.454 170.413 187.074 189 167.6Z" fill="white"/>
+    <path opacity="0.05" d="M294.62 137.417C282.592 184.319 239.865 219 189 219C179.799 219 170.863 217.865 162.328 215.728C174.25 168.752 216.816 134 267.5 134C276.864 134 285.952 135.186 294.62 137.417Z" fill="white"/>
   </symbol>
 
-  <symbol id="mobile-app" viewBox="0 0 345 345" fill="none">
-    <path d="M172.5 0V145.573" stroke="white" stroke-linejoin="bevel"/>
-    <path opacity="0.5" d="M344.158 0.841553L199.295 145.704" stroke="white" stroke-linejoin="bevel"/>
-    <path d="M345 172.5L199.427 172.5" stroke="white" stroke-linejoin="bevel"/>
-    <path opacity="0.5" d="M344.158 344.158L199.295 199.296" stroke="white" stroke-linejoin="bevel"/>
-    <path d="M172.5 199.427V345" stroke="white" stroke-linejoin="bevel"/>
-    <path opacity="0.5" d="M145.706 199.294L0.842826 344.157" stroke="white" stroke-linejoin="bevel"/>
-    <path d="M145.573 172.5L7.62343e-05 172.5" stroke="white" stroke-linejoin="bevel"/>
-    <path opacity="0.5" d="M145.706 145.706L0.842838 0.842814" stroke="white" stroke-linejoin="bevel"/>
+  <symbol id="mobile-app" viewBox="0 0 347 347" fill="none">
+    <path d="M173.5 1V146.573" stroke="white" stroke-width="4" stroke-linejoin="bevel"/>
+    <path opacity="0.5" d="M345.158 1.84155L200.295 146.704" stroke="white" stroke-width="4" stroke-linejoin="bevel"/>
+    <path d="M346 173.5L200.427 173.5" stroke="white" stroke-width="4" stroke-linejoin="bevel"/>
+    <path opacity="0.5" d="M345.158 345.158L200.295 200.296" stroke="white" stroke-width="4" stroke-linejoin="bevel"/>
+    <path d="M173.5 200.427V346" stroke="white" stroke-width="4" stroke-linejoin="bevel"/>
+    <path opacity="0.5" d="M146.706 200.294L1.84283 345.157" stroke="white" stroke-width="4" stroke-linejoin="bevel"/>
+    <path d="M146.573 173.5L1.00008 173.5" stroke="white" stroke-width="4" stroke-linejoin="bevel"/>
+    <path opacity="0.5" d="M146.706 146.706L1.84284 1.84281" stroke="white" stroke-width="4" stroke-linejoin="bevel"/>
   </symbol>
 
-  <symbol id="motion-design" viewBox="0 0 350 352" fill="none">
-    <path d="M20 89.1783L174.305 1L330 89.1783M20 89.1783V265.535L174.305 351M20 89.1783L174.305 177.357M174.305 351L330 265.535V89.1783M174.305 351V177.357M330 89.1783L174.305 177.357" stroke="white"/>
-    <path fill-rule="evenodd" clip-rule="evenodd" d="M174.498 50L63 113.488V240.465L174.498 302L287 240.465V113.488L174.498 50ZM174.695 100L107 138.295V214.884L174.695 252L243 214.884V138.295L174.695 100Z" fill="white" fill-opacity="0.05"/>
-    <path d="M63 113.488L62.7526 113.054L62.5 113.198V113.488H63ZM174.498 50L174.743 49.5646L174.497 49.4253L174.25 49.5655L174.498 50ZM63 240.465H62.5V240.76L62.7584 240.903L63 240.465ZM174.498 302L174.256 302.438L174.497 302.57L174.738 302.439L174.498 302ZM287 240.465L287.24 240.904L287.5 240.762V240.465H287ZM287 113.488H287.5V113.196L287.246 113.053L287 113.488ZM107 138.295L106.754 137.859L106.5 138.003V138.295H107ZM174.695 100L174.94 99.5639L174.694 99.4262L174.449 99.5648L174.695 100ZM107 214.884H106.5V215.18L106.76 215.322L107 214.884ZM174.695 252L174.455 252.438L174.694 252.57L174.934 252.439L174.695 252ZM243 214.884L243.239 215.323L243.5 215.181V214.884H243ZM243 138.295H243.5V138.002L243.245 137.858L243 138.295ZM63.2474 113.923L174.745 50.4345L174.25 49.5655L62.7526 113.054L63.2474 113.923ZM63.5 240.465V113.488H62.5V240.465H63.5ZM174.739 301.562L63.2416 240.027L62.7584 240.903L174.256 302.438L174.739 301.562ZM286.76 240.026L174.258 301.561L174.738 302.439L287.24 240.904L286.76 240.026ZM286.5 113.488V240.465H287.5V113.488H286.5ZM174.252 50.4354L286.754 113.924L287.246 113.053L174.743 49.5646L174.252 50.4354ZM107.246 138.73L174.941 100.435L174.449 99.5648L106.754 137.859L107.246 138.73ZM107.5 214.884V138.295H106.5V214.884H107.5ZM174.935 251.562L107.24 214.445L106.76 215.322L174.455 252.438L174.935 251.562ZM242.761 214.444L174.456 251.561L174.934 252.439L243.239 215.323L242.761 214.444ZM242.5 138.295V214.884H243.5V138.295H242.5ZM174.451 100.436L242.755 138.731L243.245 137.858L174.94 99.5639L174.451 100.436ZM62.7526 113.923L106.753 138.977L107.247 138.108L63.2474 113.054L62.7526 113.923ZM243.246 138.754L287.246 113.924L286.754 113.053L242.754 137.883L243.246 138.754ZM173.998 251.892V302H174.998V251.892H173.998ZM106.754 138.73L174.449 177.024L174.941 176.154L107.246 137.859L106.754 138.73ZM174.94 177.025L243.245 138.731L242.755 137.858L174.451 176.153L174.94 177.025ZM174.195 176.589V252H175.195V176.589H174.195Z" fill="white"/>
+  <symbol id="motion-design" viewBox="0 0 350 356" fill="none">
+    <path d="M20 91.1783L174.305 3L330 91.1783M20 91.1783V267.535L174.305 353M20 91.1783L174.305 179.357M174.305 353L330 267.535V91.1783M174.305 353V179.357M330 91.1783L174.305 179.357" stroke="white" stroke-width="4"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M174.498 52L63 115.488V242.465L174.498 304L287 242.465V115.488L174.498 52ZM174.695 102L107 140.295V216.884L174.695 254L243 216.884V140.295L174.695 102Z" fill="white" fill-opacity="0.05"/>
+    <path d="M63 115.488L62.0104 113.75L61 114.326V115.488H63ZM174.498 52L175.481 50.2582L174.493 49.701L173.508 50.262L174.498 52ZM63 242.465H61V243.646L62.0336 244.216L63 242.465ZM174.498 304L173.531 305.751L174.493 306.282L175.458 305.755L174.498 304ZM287 242.465L287.96 244.22L289 243.651V242.465H287ZM287 115.488H289V114.321L287.983 113.747L287 115.488ZM107 140.295L106.015 138.554L105 139.128V140.295H107ZM174.695 102L175.673 100.255L174.691 99.7047L173.71 100.259L174.695 102ZM107 216.884H105V218.068L106.038 218.637L107 216.884ZM174.695 254L173.734 255.754L174.691 256.279L175.65 255.757L174.695 254ZM243 216.884L243.955 218.641L245 218.073V216.884H243ZM243 140.295H245V139.123L243.978 138.55L243 140.295ZM63.9896 117.226L175.487 53.738L173.508 50.262L62.0104 113.75L63.9896 117.226ZM65 242.465V115.488H61V242.465H65ZM175.464 302.249L63.9664 240.714L62.0336 244.216L173.531 305.751L175.464 302.249ZM286.04 240.71L173.538 302.245L175.458 305.755L287.96 244.22L286.04 240.71ZM285 115.488V242.465H289V115.488H285ZM173.515 53.7418L286.017 117.23L287.983 113.747L175.481 50.2582L173.515 53.7418ZM107.985 142.035L175.68 103.741L173.71 100.259L106.015 138.554L107.985 142.035ZM109 216.884V140.295H105V216.884H109ZM175.657 252.246L107.962 215.13L106.038 218.637L173.734 255.754L175.657 252.246ZM242.045 215.126L173.74 252.243L175.65 255.757L243.955 218.641L242.045 215.126ZM241 140.295V216.884H245V140.295H241ZM173.717 103.745L242.022 142.039L243.978 138.55L175.673 100.255L173.717 103.745Z" fill="white"/>
   </symbol>
 
-  <symbol id="graphic-design" viewBox="0 0 381 352" fill="none">
-    <circle cx="190.5" cy="87.5" r="86.5" transform="rotate(-90 190.5 87.5)" stroke="white"/>
-    <circle cx="293.5" cy="264.5" r="86.5" transform="rotate(-90 293.5 264.5)" stroke="white"/>
-    <circle cx="87.5" cy="264.5" r="86.5" stroke="white"/>
-    <path opacity="0.5" d="M191.366 1L368 307H13L191.366 1Z" stroke="white"/>
+  <symbol id="graphic-design" viewBox="0 0 383 356" fill="none">
+    <circle cx="191.5" cy="90.5" r="86.5" transform="rotate(-90 191.5 90.5)" stroke="white" stroke-width="4"/>
+    <circle cx="294.5" cy="267.5" r="86.5" transform="rotate(-90 294.5 267.5)" stroke="white" stroke-width="4"/>
+    <circle cx="88.5" cy="267.5" r="86.5" stroke="white" stroke-width="4"/>
+    <path opacity="0.5" d="M192.366 4L369 310H14L192.366 4Z" stroke="white" stroke-width="4"/>
   </symbol>
 
-  <symbol id="marketing" viewBox="0 0 347 361" fill="none">
-    <ellipse cx="121.211" cy="120.851" rx="119.851" ry="119.851" transform="rotate(-90 121.211 120.851)" stroke="white"/>
-    <ellipse cx="226.149" cy="240.149" rx="119.851" ry="119.851" transform="rotate(-90 226.149 240.149)" stroke="white"/>
-    <rect x="346" y="119" width="1" height="240" transform="rotate(90 346 119)" fill="white"/>
-    <rect x="241" y="241" width="1" height="240" transform="rotate(90 241 241)" fill="white"/>
-    <path opacity="0.05" fill-rule="evenodd" clip-rule="evenodd" d="M241 121.217C236.114 120.611 231.138 120.298 226.088 120.298C160.018 120.298 106.435 173.76 106.238 239.783C111.123 240.389 116.1 240.702 121.15 240.702C187.219 240.702 240.803 187.24 241 121.217Z" fill="white"/>
+  <symbol id="marketing" viewBox="0 0 373 363" fill="none">
+    <ellipse cx="134.211" cy="121.851" rx="119.851" ry="119.851" transform="rotate(-90 134.211 121.851)" stroke="white" stroke-width="4"/>
+    <ellipse cx="239.149" cy="241.149" rx="119.851" ry="119.851" transform="rotate(-90 239.149 241.149)" stroke="white" stroke-width="4"/>
+    <rect x="359" y="120" width="4" height="240" transform="rotate(90 359 120)" fill="white"/>
+    <rect x="254" y="240" width="4" height="240" transform="rotate(90 254 240)" fill="white"/>
+    <path opacity="0.05" fill-rule="evenodd" clip-rule="evenodd" d="M254 122.217C249.114 121.611 244.138 121.298 239.088 121.298C173.018 121.298 119.435 174.76 119.238 240.783C124.123 241.389 129.1 241.702 134.15 241.702C200.219 241.702 253.803 188.24 254 122.217Z" fill="white"/>
   </symbol>
 </svg>

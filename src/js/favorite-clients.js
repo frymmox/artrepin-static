@@ -15,7 +15,7 @@ if (document.querySelector('.favorite-clients')) {
       document.querySelector('.js-oneLast').classList.remove('in')
       document.querySelector('.js-oneLast').classList.add('out')
     }
-  }, 5000)
+  }, 7000)
 
   setTimeout(() => {
     setInterval(() => {
@@ -34,8 +34,8 @@ if (document.querySelector('.favorite-clients')) {
         document.querySelector('.js-twoLast').classList.remove('in')
         document.querySelector('.js-twoLast').classList.add('out')
       }
-    }, 5000)
-  }, 500)
+    }, 7000)
+  }, 700)
 
   setTimeout(() => {
     setInterval(() => {
@@ -54,8 +54,8 @@ if (document.querySelector('.favorite-clients')) {
         document.querySelector('.js-threeLast').classList.remove('in')
         document.querySelector('.js-threeLast').classList.add('out')
       }
-    }, 5000)
-  }, 1000)
+    }, 7000)
+  }, 1400)
 
   setTimeout(() => {
     setInterval(() => {
@@ -74,8 +74,8 @@ if (document.querySelector('.favorite-clients')) {
         document.querySelector('.js-fourLast').classList.remove('in')
         document.querySelector('.js-fourLast').classList.add('out')
       }
-    }, 5000)
-  }, 1500)
+    }, 7000)
+  }, 2100)
 
   setTimeout(() => {
     setInterval(() => {
@@ -94,8 +94,8 @@ if (document.querySelector('.favorite-clients')) {
         document.querySelector('.js-fiveLast').classList.remove('in')
         document.querySelector('.js-fiveLast').classList.add('out')
       }
-    }, 5000)
-  }, 2000)
+    }, 7000)
+  }, 2800)
 
   setTimeout(() => {
     setInterval(() => {
@@ -114,8 +114,8 @@ if (document.querySelector('.favorite-clients')) {
         document.querySelector('.js-sixLast').classList.remove('in')
         document.querySelector('.js-sixLast').classList.add('out')
       }
-    }, 5000)
-  }, 2500)
+    }, 7000)
+  }, 3500)
 
   setTimeout(() => {
     setInterval(() => {
@@ -134,8 +134,8 @@ if (document.querySelector('.favorite-clients')) {
         document.querySelector('.js-sevenLast').classList.remove('in')
         document.querySelector('.js-sevenLast').classList.add('out')
       }
-    }, 5000)
-  }, 3000)
+    }, 7000)
+  }, 4200)
 
   setTimeout(() => {
     setInterval(() => {
@@ -154,8 +154,8 @@ if (document.querySelector('.favorite-clients')) {
         document.querySelector('.js-eightLast').classList.remove('in')
         document.querySelector('.js-eightLast').classList.add('out')
       }
-    }, 5000)
-  }, 3500)
+    }, 7000)
+  }, 4900)
 
   setTimeout(() => {
     setInterval(() => {
@@ -174,8 +174,8 @@ if (document.querySelector('.favorite-clients')) {
         document.querySelector('.js-nineLast').classList.remove('in')
         document.querySelector('.js-nineLast').classList.add('out')
       }
-    }, 5000)
-  }, 4000)
+    }, 7000)
+  }, 5600)
 
   setTimeout(() => {
     setInterval(() => {
@@ -194,6 +194,6 @@ if (document.querySelector('.favorite-clients')) {
         document.querySelector('.js-tenLast').classList.remove('in')
         document.querySelector('.js-tenLast').classList.add('out')
       }
-    }, 5000)
-  }, 4500)
+    }, 7000)
+  }, 6300)
 }

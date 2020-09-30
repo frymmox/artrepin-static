@@ -6,6 +6,10 @@
   padding-left: var(--block-gap-horizontal, @block-gap-horizontal);
   padding-bottom: var(--block-gap-horizontal, @block-gap-vertical);
 
+  @media (max-width: @breakpoint-md - 1px) {
+    padding-bottom: 44px;
+  }
+
   @media (min-width: @breakpoint-xl) {
     position: fixed;
     bottom: 0;
@@ -37,8 +41,8 @@
     margin-top: var(--block-gap-horizontal, @block-gap-vertical);
 
     @media (max-width: @breakpoint-md - 1px) {
-      padding-top: 48px;
-      margin-top: 48px;
+      padding-top: 64px;
+      margin-top: 64px;
     }
 
     .footer__item {
@@ -96,6 +100,10 @@
   @media (max-width: @breakpoint-md - 1px) {
     font-size: 2.25rem;
     line-height: 2.75rem;
+
+    p {
+      margin-bottom: 16px;
+    }
   }
 
   @media (max-width: @breakpoint-xl - 1px) {
