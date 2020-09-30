@@ -13,6 +13,11 @@
   }
 }
 
+.portfolio-promo__container {
+  position: relative;
+  width: 100%;
+}
+
 .portfolio-promo__image {
   position: absolute;
   top: 0;
@@ -41,5 +46,24 @@
       font-size: 8.625rem;
       line-height: 10.375rem;
     }
+  }
+}
+
+.portfolio-promo__video {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 80%;
+  width: 80%;
+  object-position: 75% 100%;
+  object-fit: contain;
+
+  @media (max-width: @breakpoint-md - 1px) {
+    height: 150%;
+    width: 150%;
+    object-fit: contain;
+    object-position: 75% 100%;
+    max-width: none;
+    right: -25%;
   }
 }
