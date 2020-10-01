@@ -19,17 +19,6 @@
   width: 100%;
 }
 
-.portfolio-promo__image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  object-position: center;
-  z-index: -1;
-}
-
 .portfolio-promo__wrap {
   max-width: 1680px;
   margin-left: auto;
@@ -44,6 +33,11 @@
     line-height: 4rem;
 
     @media (min-width: @breakpoint-md) {
+      font-size: 4.625rem;
+      line-height: 5rem;
+    }
+
+    @media (min-width: @breakpoint-xl) {
       font-size: 8.625rem;
       line-height: 10.375rem;
     }

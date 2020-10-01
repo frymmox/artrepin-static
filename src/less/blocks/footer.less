@@ -6,7 +6,7 @@
   padding-left: var(--block-gap-horizontal, @block-gap-horizontal);
   padding-bottom: var(--block-gap-horizontal, @block-gap-vertical);
 
-  @media (max-width: @breakpoint-md - 1px) {
+  @media (max-width: @breakpoint-xl - 1px) {
     padding-bottom: 44px;
   }
 
@@ -40,7 +40,7 @@
     border-top: 1px solid #98A5B1;
     margin-top: var(--block-gap-horizontal, @block-gap-vertical);
 
-    @media (max-width: @breakpoint-md - 1px) {
+    @media (max-width: @breakpoint-xl - 1px) {
       padding-top: 64px;
       margin-top: 64px;
     }
@@ -82,14 +82,18 @@
     height: auto;
   }
 
-  @media (min-width: @breakpoint-md) {
+  @media (min-width: @breakpoint-lg) {
     width: 33.33%;
   }
 
-  @media (max-width: @breakpoint-md - 1px) {
+  @media (max-width: @breakpoint-lg - 1px) {
     margin-left: -100%;
     transform: translateX(40%);
     align-self: flex-end;
+  }
+
+  @media (min-width: @breakpoint-md) and (max-width: @breakpoint-lg - 1px) {
+    transform: translateX(60%);
   }
 }
 
@@ -97,7 +101,7 @@
   font-size: 3.75rem;
   line-height: 4.5rem;
 
-  @media (max-width: @breakpoint-md - 1px) {
+  @media (max-width: @breakpoint-xl - 1px) {
     font-size: 2.25rem;
     line-height: 2.75rem;
 

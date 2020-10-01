@@ -1,4 +1,9 @@
 :root {
+  @media (min-width: @breakpoint-md) {
+    --element-gap-horizontal: 24px;
+    --block-gap-horizontal: 24px;
+  }
+
   @media (min-width: @breakpoint-xl) {
     --block-gap-horizontal: 80px;
     --block-gap-vertical: 200px;
@@ -38,7 +43,7 @@ body {
   hanging-punctuation: first allow-end last;
   margin: 0;
 
-  @media (max-width: @breakpoint-md - 1px) {
+  @media (max-width: @breakpoint-xl - 1px) {
     font-size: 1.625rem;
     line-height: 2rem;
   }
@@ -54,28 +59,38 @@ h3 {
 h1,
 .h1 {
   font-family: @text-font-family;
-  font-size: 8.625rem;
-  line-height: 10.375rem;
+  font-size: 3.75rem;
+  line-height: 4.125rem;
   font-weight: normal;
   letter-spacing: -1px;
 
-  @media (max-width: @breakpoint-md - 1px) {
-    font-size: 3.75rem;
-    line-height: 4.125rem;
+  @media (min-width: @breakpoint-md) {
+    font-size: 4.75rem;
+    line-height: 5.125rem;
+  }
+
+  @media (min-width: @breakpoint-xl) {
+    font-size: 8.625rem;
+    line-height: 10.375rem;
   }
 }
 
 h2,
 .h2 {
   font-family: @text-font-family;
-  font-size: 8.625rem;
-  line-height: 10.375rem;
+  font-size: 3.75rem;
+  line-height: 4.125rem;
   font-weight: normal;
   letter-spacing: -1px;
 
-  @media (max-width: @breakpoint-md - 1px) {
-    font-size: 3.75rem;
-    line-height: 4.125rem;
+  @media (min-width: @breakpoint-md) {
+    font-size: 4.75rem;
+    line-height: 5.125rem;
+  }
+
+  @media (min-width: @breakpoint-xl) {
+    font-size: 8.625rem;
+    line-height: 10.375rem;
   }
 }
 

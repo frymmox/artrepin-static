@@ -1,27 +1,23 @@
-.cources {
-  background-color: #fff;
-}
-
 .cources__list {
-  margin-bottom: 64px;
+  margin-bottom: 50px;
 
   @media (min-width: @breakpoint-xl) {
     margin-bottom: 160px;
   }
 
-  @media (min-width: @breakpoint-xl) {
+  @media (min-width: @breakpoint-lg) {
     justify-content: space-between;
   }
 }
 
 .cources__accent {
-  @media (min-width: @breakpoint-xl) {
+  @media (min-width: @breakpoint-lg) {
     width: 33.33%;
   }
 }
 
 .cources__content {
-  @media (min-width: @breakpoint-xl) {
+  @media (min-width: @breakpoint-lg) {
     width: 58.33%;
   }
 }
@@ -71,7 +67,7 @@
 .cources__text {
   margin-bottom: 48px;
 
-  @media (min-width: @breakpoint-md) {
+  @media (min-width: @breakpoint-xl) {
     margin-bottom: 96px;
   }
 }
@@ -142,12 +138,47 @@
   width: 100%;
   height: 100%;
 
+  .vjs-big-play-button {
+    width: 96px;
+    height: 96px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background-color: #fff;
+    align-items: center;
+
+    .vjs-icon-placeholder {
+      display: block;
+      width: 100%;
+      height: 100%;
+      position: relative;
+
+      &::before {
+        content: 'play';
+        font-size: 1.375rem;
+        line-height: 1.375rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: @text-font-family;
+        color: @body-color;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        display: block;
+        width: auto;
+        height: auto;
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+
   .vjs-poster {
     background-size: cover;
     cursor: none;
   }
 
-  @media (min-width: @breakpoint-lg) {
+  @media (min-width: @breakpoint-xl) {
     .vjs-big-play-button,
     .vjs-control-bar {
       display: none;
@@ -170,7 +201,7 @@
   justify-content: center;
   align-items: center;
 
-  @media (max-width: @breakpoint-lg - 1px) {
+  @media (max-width: @breakpoint-xl - 1px) {
     display: none;
   }
 }
@@ -181,9 +212,12 @@
   width: 75%;
   margin-left: 25%;
 
-  @media (min-width: @breakpoint-md) {
+  @media (min-width: @breakpoint-lg) {
     width: 41.66%;
     margin-left: 41.66%;
+  }
+
+  @media (min-width: @breakpoint-xl) {
     font-size: 1.85rem;
     line-height: 2.25rem;
   }

@@ -14,14 +14,14 @@
   }
 
   &--text {
-    @media (min-width: @breakpoint-xl) {
+    @media (min-width: @breakpoint-lg) {
       justify-content: space-between;
     }
   }
 }
 
 .project-goals__title {
-  @media (min-width: @breakpoint-xl) {
+  @media (min-width: @breakpoint-lg) {
     width: 33.33%;
   }
 
@@ -45,7 +45,7 @@
     line-height: 2.25rem;
   }
 
-  @media (min-width: @breakpoint-xl) {
+  @media (min-width: @breakpoint-lg) {
     width: 58.33%;
   }
 
@@ -55,14 +55,24 @@
 }
 
 .project-goals__more {
+  margin-top: 24px;
   color: #98A5B1;
+
+  @media (min-width: @breakpoint-xl) {
+    margin-top: 32px;
+  }
 }
 
 .project-goals__image {
   --element-gap-vertical: 16px;
+  --element-gap-horizontal: 16px;
 
-  @media (min-width: @breakpoint-xl) {
+  @media (min-width: @breakpoint-lg) {
     width: 50%;
+  }
+
+  &:last-child {
+    --element-gap-vertical: 40px;
   }
 
   &--full {
