@@ -87,7 +87,7 @@ exports.scripts = scripts
 // Copy
 
 const copy = () => {
-  return src(['src/fonts/**/*', 'src/img/**/*', 'src/video/**/*'], { base: 'src' })
+  return src(['src/fonts/**/*', 'src/img/**/*', 'src/video/**/*', 'src/js/pace/**/*'], { base: 'src' })
     .pipe(dest('docs'))
     .pipe(sync.stream({ once: true }))
 };
