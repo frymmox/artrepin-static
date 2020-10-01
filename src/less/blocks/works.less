@@ -14,6 +14,7 @@
     color: @body-color;
     position: relative;
     white-space: nowrap;
+    background-image: none;
 
     &::before {
       content: '';
@@ -59,7 +60,7 @@
   clip-path: inset(0 0 20px 0);
   margin-bottom: -20px;
 
-  @media (min-width: @breakpoint-md) {
+  @media (min-width: @breakpoint-md) and (max-width: @breakpoint-xl - 1px) {
     width: 60%;
   }
 }

@@ -42,6 +42,7 @@ body {
   font-display: swap;
   hanging-punctuation: first allow-end last;
   margin: 0;
+  cursor: url(../img/cursor-dot.svg) 5 5, auto;
 
   @media (max-width: @breakpoint-xl - 1px) {
     font-size: 1.625rem;
@@ -136,15 +137,19 @@ sub {
 }
 
 a {
-  cursor: pointer;
+  cursor: url(../img/cursor-rect.svg) 5 5, auto;
   color: @link-color;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 1px;
   transition-duration: 0.3s;
   transition-timing-function: ease-out;
-  transition-property: color, border-bottom;
+  transition-property: background-size;
   text-decoration: none;
 
   &:hover {
-    color: #98A5B1;
+    background-size: 100% 1px;
   }
 
   &:not([href]),
@@ -163,7 +168,7 @@ button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
-  cursor: pointer;
+  cursor: url(../img/cursor-rect.svg) 5 5, auto;
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;

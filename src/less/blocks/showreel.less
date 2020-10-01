@@ -78,6 +78,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 1.375rem;
+  line-height: 1.375rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: bold;
 
   @media (max-width: @breakpoint-xl - 1px) {
     display: none;
@@ -85,12 +90,15 @@
 }
 
 .showreel__play {
+  margin-bottom: -4px;
+
   .showreel__container--active & {
     display: none;
   }
 }
 
 .showreel__pause {
+  margin-bottom: -4px;
   display: none;
 
   .showreel__container--active & {
