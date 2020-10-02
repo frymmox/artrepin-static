@@ -17,13 +17,31 @@
 
 .gradient-title__item {
   background-clip: text;
-  color: transparent;
   display: inline-block;
+  -webkit-text-fill-color: transparent;
   color: @body-color;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition-duration: 0.85s;
+  transition-timing-function: ease-out;
+  transition-property: background-position;
+  overflow: hidden;
+
+  &--first {
+    background-image: linear-gradient(to right, #0073E8, #0073E8 25%, #03D9D1 50%, currentColor 50%);
+  }
 
   &--last {
+    background-image: linear-gradient(to right, #0073E8, #0073E8 25%, #03D9D1 50%, currentColor 50%);
+
+    // background-image: linear-gradient(to right, #781FBB, #781FBB 25%, #FF2478 50%, currentColor 50%);
+
     @media (min-width: 375px) and (max-width: @breakpoint-sm - 1px) {
       white-space: nowrap;
     }
+  }
+
+  &:hover {
+    background-position: 0 100%;
   }
 }
