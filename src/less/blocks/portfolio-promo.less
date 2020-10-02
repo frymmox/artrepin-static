@@ -2,12 +2,17 @@
   position: relative;
   display: flex;
   align-items: flex-end;
-  height: 80vh;
+  height: 60vh;
   padding-right: var(--block-gap-horizontal, @block-gap-horizontal);
   padding-left: var(--block-gap-horizontal, @block-gap-horizontal);
-  padding-bottom: 64px;
+  padding-bottom: 24px;
   background-color: #000;
   overflow: hidden;
+
+  @media (min-width: @breakpoint-md) {
+    height: 50vh;
+    padding-bottom: 56px;
+  }
 
   @media (min-width: @breakpoint-xl) {
     height: 60vh;
