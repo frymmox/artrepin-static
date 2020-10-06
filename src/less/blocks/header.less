@@ -224,6 +224,13 @@
   justify-content: space-between;
 }
 
+.header-collapse__header {
+  @media (min-width: @breakpoint-xxxl) {
+    margin-right: ~"calc(var(--header-margin) * -1)";
+    margin-left: ~"calc(var(--header-margin) * -1)";
+  }
+}
+
 .header-collapse__footer {
   @media (max-width: @breakpoint-md - 1px) {
     flex-direction: column;

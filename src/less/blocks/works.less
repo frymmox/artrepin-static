@@ -1,3 +1,8 @@
+// .works {
+//   overflow: hidden;
+//   position: relative;
+// }
+
 .works__header {
   display: flex;
   flex-wrap: wrap;
@@ -13,34 +18,17 @@
   a {
     color: @body-color;
     position: relative;
-    white-space: nowrap;
-    background-image: none;
+    background-size: 0% 2px;
+    background-position: 0% 80%;
 
-    &::before {
-      content: '';
-      position: absolute;
-      bottom: 0.15em;
-      left: 0;
-      width: 100%;
-      height: 2px;
-      background-color: @body-color;
-      transition-duration: 0.3s;
-      transition-timing-function: ease-out;
-      transition-property: background-color;
-    }
-
-    &:hover + .icon {
-      opacity: 1;
+    &:hover {
+      background-size: 100% 2px;
     }
   }
 
   .icon {
-    opacity: 0;
     vertical-align: baseline;
     margin-left: 0.4em;
-    transition-duration: 0.35s;
-    transition-timing-function: ease-out;
-    transition-property: opacity;
   }
 
   svg {
@@ -55,10 +43,16 @@
   }
 }
 
+.works__tabs {
+  max-width: ~"calc(100vw - var(--block-gap-horizontal, @{block-gap-horizontal}) * 2)";
+}
+
 .works__nav {
   overflow: hidden;
   clip-path: inset(0 0 20px 0);
   margin-bottom: -20px;
+  margin-right: ~"calc(var(--block-gap-horizontal, @{block-gap-horizontal}) * -1)";
+  margin-left: ~"calc(var(--block-gap-horizontal, @{block-gap-horizontal}) * -1)";
 
   @media (min-width: @breakpoint-md) and (max-width: @breakpoint-xl - 1px) {
     width: 60%;
@@ -67,7 +61,6 @@
 
 .works__tag {
   display: flex;
-  margin-right: -8px;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   padding-bottom: 20px;
@@ -92,8 +85,12 @@
       margin-right: 8px;
     }
 
+    &:first-child {
+      padding-left: var(--block-gap-horizontal, @block-gap-horizontal);
+    }
+
     &:last-child {
-      padding-right: 8px;
+      padding-right: var(--block-gap-horizontal, @block-gap-horizontal);
     }
 
     &:hover {

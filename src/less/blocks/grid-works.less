@@ -32,11 +32,13 @@
   overflow: hidden;
   clip-path: inset(0 0 19px 0);
   margin-bottom: -20px;
+  margin-right: ~"calc(var(--block-gap-horizontal, @{block-gap-horizontal}) * -1)";
+  margin-left: ~"calc(var(--block-gap-horizontal, @{block-gap-horizontal}) * -1)";
+
 }
 
 .grid-works__tag {
   display: flex;
-  margin-right: -8px;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   padding-bottom: 20px;
@@ -61,8 +63,12 @@
       margin-right: 8px;
     }
 
+    &:first-child {
+      padding-left: var(--block-gap-horizontal, @block-gap-horizontal);
+    }
+
     &:last-child {
-      padding-right: 8px;
+      padding-right: var(--block-gap-horizontal, @block-gap-horizontal);
     }
 
     &:hover {

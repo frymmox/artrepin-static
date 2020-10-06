@@ -113,9 +113,23 @@
   @media (max-width: @breakpoint-xl - 1px) {
     margin-bottom: 48px;
   }
+}
 
+.footer__mail {
   a {
     color: #fff;
+    position: relative;
+    background-size: 0% 2px;
+    background-position: 0% 80%;
+
+    &:hover {
+      background-size: 100% 2px;
+    }
+  }
+
+  .icon {
+    vertical-align: baseline;
+    margin-left: 0.1em;
   }
 }
 

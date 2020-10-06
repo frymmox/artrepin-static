@@ -17,3 +17,14 @@ headerClose.addEventListener('click', () => {
   gsap.to('#square-header', {scale: 1, x: 0, y: 0, duration: 0.6, ease: 'expo.out'})
   scrollLock.enablePageScroll()
 })
+
+
+// Width header large screen
+
+let marginHeader = (document.documentElement.clientWidth - 1680 - 160) / 2
+document.documentElement.style.setProperty('--header-margin', `${marginHeader}px`)
+
+window.addEventListener('resize', () => {
+  marginHeader = (document.documentElement.clientWidth - 1680 - 160) / 2
+  document.documentElement.style.setProperty('--header-margin', `${marginHeader}px`)
+})
