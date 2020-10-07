@@ -88,6 +88,13 @@
       transition-property: opacity;
       display: flex;
       align-items: baseline;
+
+      &:hover {
+        .header-collapse__index,
+        .header-collapse__divider {
+          opacity: 1;
+        }
+      }
     }
 
     a {
@@ -97,11 +104,6 @@
 
     &:hover > * {
       opacity: 0.5;
-    }
-
-    &:hover .header-collapse__index,
-    &:hover .header-collapse__divider {
-      opacity: 1;
     }
 
     &:hover > *:hover {

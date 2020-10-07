@@ -79,3 +79,22 @@
     width: 100%;
   }
 }
+
+.project-goals__video {
+  --element-gap-vertical: 16px;
+  --element-gap-horizontal: 16px;
+  overflow: hidden;
+
+  @media (min-width: @breakpoint-lg) {
+    width: 50%;
+  }
+
+  &:last-child {
+    --element-gap-vertical: 40px;
+  }
+
+  &--full {
+    width: 100%;
+    max-height: none;
+  }
+}
