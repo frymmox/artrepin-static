@@ -1,5 +1,14 @@
 .video-box {
   position: relative;
+
+  & > {
+    video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
 }
 
 .video-box__preview {
@@ -41,6 +50,22 @@
   line-height: 1.125rem;
   letter-spacing: 1px;
   text-transform: uppercase;
+}
+
+.video-box__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
 }
 
 .video-box__content {

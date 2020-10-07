@@ -1,11 +1,13 @@
 (function() {
-  const video = document.querySelector('.js-vmeo-video')
-  const container = document.querySelector('.video-box')
-  const preview = document.querySelector('.video-box__preview')
-  const player = new Vimeo.Player(video)
-
-  container.addEventListener('click', () => {
-    preview.style.display = 'none'
-    player.play()
-  })
+  if (document.querySelectorAll(".video-box--vimeo"))
+  document.querySelectorAll(".video-box--vimeo").forEach((el) => {
+    el.addEventListener("click", (e) => {
+      const video = el.children[1].children[0]
+      let player = new Vimeo.Player(video)
+      e.preventDefault()
+      el.children[0].style.display = 'none'
+      player.play()
+      console.log(el.children[1].children[0])
+    });
+  });
 })();
