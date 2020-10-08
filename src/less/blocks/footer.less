@@ -6,6 +6,12 @@
   padding-left: var(--block-gap-horizontal, @block-gap-horizontal);
   padding-bottom: var(--block-gap-horizontal, @block-gap-vertical);
 
+  @media (max-width: @breakpoint-md - 1px) {
+    margin-top: -20px;
+    z-index: 1;
+    position: relative;
+  }
+
   @media (max-width: @breakpoint-xl - 1px) {
     padding-bottom: 44px;
   }
@@ -140,6 +146,17 @@
   margin-bottom: -12px;
   font-size: 1.75rem;
   line-height: 2.125rem;
+  transition-duration: 0.35s;
+  transition-timing-function: ease-out;
+  transition-property: opacity;
+
+  &:hover > * {
+    opacity: 0.5;
+  }
+
+  &:hover > *:hover {
+    opacity: 1;
+  }
 
   @media (max-width: @breakpoint-md - 1px) {
     flex-direction: column;
@@ -153,6 +170,9 @@
     border: 0 solid transparent;
     border-right-width: 32px;
     border-bottom-width: 12px;
+    transition-duration: 0.35s;
+    transition-timing-function: ease-out;
+    transition-property: opacity;
   }
 
   a {
@@ -185,6 +205,24 @@
 }
 
 .footer__social {
+  transition-duration: 0.35s;
+  transition-timing-function: ease-out;
+  transition-property: opacity;
+
+  &:hover > * {
+    opacity: 0.5;
+  }
+
+  &:hover > *:hover {
+    opacity: 1;
+  }
+
+  li {
+    transition-duration: 0.35s;
+    transition-timing-function: ease-out;
+    transition-property: opacity;
+  }
+
   a {
     color: #fff;
   }

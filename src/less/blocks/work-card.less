@@ -59,6 +59,7 @@
     transition-duration: 0.35s;
     transition-timing-function: ease-out;
     transition-property: background-size;
+    cursor: url(img/card-hover.svg) 60 60, auto;
 
     &::before {
       content: '';
@@ -78,6 +79,8 @@
 .work-card__tags {
   ul {
     display: flex;
+    flex-wrap: wrap;
+    margin-bottom: -12px;
   }
 
   li {
@@ -87,6 +90,7 @@
     font-size: 0.875rem;
     line-height: 1rem;
     text-transform: uppercase;
+    margin-bottom: 12px;
 
     @media (min-width: @breakpoint-md) {
       font-size: 0.75rem;

@@ -7,6 +7,14 @@
   padding-right: var(--block-gap-horizontal, @block-gap-horizontal);
   padding-left: var(--block-gap-horizontal, @block-gap-horizontal);
   padding-bottom: 72px;
+  margin-top: -50px;
+  z-index: 4;
+  overflow: hidden;
+  border-radius: 0 0 24px 24px;
+
+  @media (max-width: @breakpoint-xl - 1px) {
+    margin-top: -20px;
+  }
 }
 
 .project-full-picture__image {

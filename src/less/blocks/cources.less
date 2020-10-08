@@ -1,3 +1,15 @@
+.cources {
+  background-color: #fff;
+  margin-top: -50px;
+  position: relative;
+  z-index: 3;
+  border-radius: 0 0 24px 24px;
+
+  @media (max-width: @breakpoint-xl - 1px) {
+    margin-top: -20px;
+  }
+}
+
 .cources__list {
   margin-bottom: 50px;
 
@@ -86,10 +98,13 @@
     background-size: 14px 11px;
     background-position: right 23px top 50%;
     background-repeat: no-repeat;
-    transition-property: border-color;
+    transition-property: border-color, background-color, color;
 
     &:hover {
-      border-color: #98A5B1;
+      border-color: @link-color;
+      background-color: @link-color;
+      color: #fff;
+      background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="14" height="11" viewBox="0 0 14 11" fill="none"%3E%3Cpath d="M13.0738 5.54L8.11375 10.5V8.26L10.0338 6.34H0.11375V4.74H10.0338L8.11375 2.82V0.58L13.0738 5.54Z" fill="white"/%3E%3C/svg%3E');
     }
   }
 
