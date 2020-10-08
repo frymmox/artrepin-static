@@ -64,18 +64,10 @@
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   padding-bottom: 20px;
+  line-height: 2.625rem;
 
-  label {
-    display: flex;
-  }
-
-  input {
-    .visually-hidden;
-  }
-
-  input:checked + span {
-    border-color: #1B64FA;
-    color: #1B64FA;
+  a {
+    background-image: none;
   }
 
   li {
@@ -102,7 +94,6 @@
 
 .works__frame {
   border: 1px solid #98A5B1;
-  padding: 8px 22px;
   padding-top: 8px;
   padding-bottom: 6px;
   padding-left: 22px;
@@ -117,8 +108,13 @@
   transition-timing-function: ease-out;
   transition-property: color, border-color;
 
+  .active & {
+    border-color: #1B64FA;
+    color: #1B64FA;
+  }
+
   span {
-    margin-left: 6px;
+    margin-left: 4px;
   }
 
   &:hover {

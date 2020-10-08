@@ -33,7 +33,7 @@
 
 .grid-works__nav {
   overflow: hidden;
-  clip-path: inset(0 0 19px 0);
+  clip-path: inset(0 0 20px 0);
   margin-bottom: -20px;
   margin-right: ~"calc(var(--block-gap-horizontal, @{block-gap-horizontal}) * -1)";
   margin-left: ~"calc(var(--block-gap-horizontal, @{block-gap-horizontal}) * -1)";
@@ -44,18 +44,10 @@
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   padding-bottom: 20px;
+  line-height: 2.625rem;
 
-  label {
-    display: flex;
-  }
-
-  input {
-    .visually-hidden;
-  }
-
-  input:checked + span {
-    border-color: #1B64FA;
-    color: #1B64FA;
+  a {
+    background-image: none;
   }
 
   li {
@@ -82,7 +74,6 @@
 
 .grid-works__frame {
   border: 1px solid #98A5B1;
-  padding: 8px 22px;
   padding-top: 8px;
   padding-bottom: 6px;
   padding-left: 22px;
@@ -96,6 +87,11 @@
   transition-duration: 0.35s;
   transition-timing-function: ease-out;
   transition-property: color, border-color;
+
+  .active & {
+    border-color: #1B64FA;
+    color: #1B64FA;
+  }
 
   span {
     margin-left: 4px;
