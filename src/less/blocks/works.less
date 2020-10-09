@@ -3,10 +3,6 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-
-  @media (min-width: @breakpoint-md) {
-    flex-wrap: nowrap;
-  }
 }
 
 .works__title {
@@ -48,10 +44,6 @@
   margin-bottom: -20px;
   margin-right: ~"calc(var(--block-gap-horizontal, @{block-gap-horizontal}) * -1)";
   margin-left: ~"calc(var(--block-gap-horizontal, @{block-gap-horizontal}) * -1)";
-
-  @media (min-width: @breakpoint-md) and (max-width: @breakpoint-lg - 1px) {
-    width: 60%;
-  }
 }
 
 .works__tag {
