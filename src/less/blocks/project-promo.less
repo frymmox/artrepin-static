@@ -3,15 +3,15 @@
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  min-height: 80vh;
+  min-height: 60vh;
   padding-right: var(--block-gap-horizontal, @block-gap-horizontal);
   padding-left: var(--block-gap-horizontal, @block-gap-horizontal);
   padding-top: var(--header-height);
   padding-bottom: 64px;
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8));
 
-  @media (min-width: @breakpoint-xl) {
-    min-height: 60vh;
+  @media (min-width: @breakpoint-md) {
+    min-height: 50vh;
     padding-bottom: 128px;
   }
 }
@@ -81,9 +81,5 @@
 
   a {
     color: #fff;
-
-    &:hover {
-      color: #98A5B1;
-    }
   }
 }
