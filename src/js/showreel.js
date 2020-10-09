@@ -55,7 +55,13 @@
     })
 
     container.addEventListener('click', () => {
+      container.children[0].style.display = 'none'
       container.classList.toggle('showreel__container--active')
+      if (container.classList.contains('showreel__container--active')) {
+        player.play()
+      } else {
+        player.pause()
+      }
     })
   }
 })();
